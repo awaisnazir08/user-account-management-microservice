@@ -3,9 +3,9 @@
 This microservice provides user registration, authentication, and profile management functionality with secure JWT-based authentication.
 
 ## Prerequisites
-Docker
-Google Cloud SDK
-Google Cloud account
+* Docker
+* Google Cloud SDK
+* Google Cloud account
 
 Deployment to Google Cloud Run
 
@@ -64,9 +64,9 @@ docker run -p 5000:5000 user-management-service
 ## API Endpoints
 ### User Registration
 
-URL: /api/users/register
-Method: POST
-Headers: Content-Type: application/json
+* URL: /api/users/register
+* Method: POST
+* Headers: Content-Type: application/json
 Request Body:
 
 ```json
@@ -79,9 +79,9 @@ Request Body:
 
 ### User Login
 
-URL: /api/users/login
-Method: POST
-Headers: Content-Type: application/json
+* URL: /api/users/login
+* Method: POST
+* Headers: Content-Type: application/json
 Request Body:
 
 ```json
@@ -95,9 +95,9 @@ Response: Access token
 
 ### User Profile
 
-URL: /api/users/profile
-Method: GET
-Headers: Authorization: Bearer <access-token>
+* URL: /api/users/profile
+* Method: GET
+* Headers: Authorization: Bearer <access-token>
 Response:
 
 ```json
@@ -113,8 +113,8 @@ Response:
 
 ## Environment Variables
 
-MONGO_URI: MongoDB connection string
-JWT_SECRET_KEY: Secret key for JWT token generation
+* MONGO_URI: MongoDB connection string
+* JWT_SECRET_KEY: Secret key for JWT token generation
 
 ## Security Considerations
 
