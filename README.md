@@ -67,7 +67,8 @@ docker run -p 5000:5000 user-management-service
 * URL: /api/users/register
 * Method: POST
 * Headers: Content-Type: application/json
-Request Body:
+
+#### Request Body:
 
 ```json
 {
@@ -82,7 +83,8 @@ Request Body:
 * URL: /api/users/login
 * Method: POST
 * Headers: Content-Type: application/json
-Request Body:
+
+#### Request Body:
 
 ```json
 {
@@ -97,8 +99,9 @@ Response: Access token
 
 * URL: /api/users/profile
 * Method: GET
-* Headers: Authorization: Bearer <access-token>
-Response:
+* Headers: Authorization: Bearer access-token
+
+#### Response:
 
 ```json
 {
