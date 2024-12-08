@@ -4,4 +4,3 @@ Flask-JWT-Extended
 pymongo==4.3.3
 python-dotenv==1.0.0
 marshmallow
-"pymongo[srv]"
